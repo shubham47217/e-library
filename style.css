@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+#searchBar {
+  margin-top: 1rem;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+}
+
+#bookList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.book {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.book a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
